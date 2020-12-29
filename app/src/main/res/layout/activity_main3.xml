@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".MainActivity3">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/user_register"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#7E96C647"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="408dp"
+            android:layout_height="79dp"
+            android:fontFamily="serif"
+            android:text="Hospital Bed &amp; Ambulance Booking"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#CC5E84"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="37dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="129dp"
+            android:layout_height="76dp"
+            android:fontFamily="sans-serif"
+            android:text="Password :"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="18dp"
+            tools:layout_editor_absoluteY="243dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="128dp"
+            android:layout_height="78dp"
+            android:fontFamily="sans-serif"
+            android:text="Email :"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="165dp" />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="163dp"
+            android:layout_height="90dp"
+            android:backgroundTint="#7AE44848"
+            android:text="Register Hospital"
+            android:textSize="18sp"
+            app:strokeColor="#F35D5D"
+            tools:layout_editor_absoluteX="34dp"
+            tools:layout_editor_absoluteY="474dp" />
+
+        <Button
+            android:id="@+id/Forget_password"
+            android:layout_width="163dp"
+            android:layout_height="76dp"
+            android:backgroundTint="#7AE44848"
+            android:text="Forget Password"
+            android:textSize="18sp"
+            app:strokeColor="#F35D5D"
+            tools:layout_editor_absoluteX="215dp"
+            tools:layout_editor_absoluteY="474dp" />
+
+        <EditText
+            android:id="@+id/lh_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="172dp" />
+
+        <EditText
+            android:id="@+id/lh_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="243dp" />
+
+        <Button
+            android:id="@+id/lh_login"
+            android:layout_width="125dp"
+            android:layout_height="72dp"
+            android:backgroundTint="#7AE44848"
+            android:text="Login"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="353dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
